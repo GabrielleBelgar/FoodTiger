@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+    android:background="#FFE082">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/back_icon" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CATEGORIES"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-black"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/dapitan">
+
+            <Button
+                android:id="@+id/categ_dapitan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLICK HERE"
+                android:textStyle="bold"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/espana">
+
+        <Button
+            android:id="@+id/categ_espana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK HERE"
+            android:textStyle="bold"
+            android:background="#00000000"
+            android:padding="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/lacson">
+
+            <Button
+                android:id="@+id/categ_lacson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLICK HERE"
+                android:textStyle="bold"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/pnoval">
+
+            <Button
+                android:id="@+id/categ_pnoval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLICK HERE"
+                android:textStyle="bold"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
